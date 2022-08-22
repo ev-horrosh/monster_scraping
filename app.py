@@ -59,4 +59,4 @@ if __name__ == '__main__':
     links = get_links(POSITION)
     data = extract_job_info(links)
     df = pd.DataFrame(data).T
-    write_db('moster.db')
+    write_db('monster.db')
